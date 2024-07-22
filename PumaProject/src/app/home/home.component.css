@@ -1,0 +1,31 @@
+.discount{
+    background-color:rgba(141, 98, 124) ;
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.discount h4{
+    text-decoration: underline;
+}
+
+.card_img, .card_img img{
+    width: 25rem;
+}
+
+.New_Colection_Flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.head{
+    width: 25rem;
+    background-color: #F6F7F8;
+}
