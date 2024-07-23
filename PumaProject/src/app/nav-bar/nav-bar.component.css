@@ -1,3 +1,8 @@
+nav{
+    position: sticky;
+    top: 0;
+}
+
 .ad-free{
     display: flex;
     justify-content: center;
@@ -30,4 +35,25 @@
 .navigation-links a{
     color: white;
     text-decoration: none;
+}
+
+.search-account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    padding-right: 5%;
+}
+
+.search-button{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    border: 1px solid gray;
+}
+
+.search-button:hover{
+    border: 2px solid white;
 }
